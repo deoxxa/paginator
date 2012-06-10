@@ -1,0 +1,22 @@
+{
+  "name": "paginator",
+  "description": "Generic pagination algorithm wrapped in a CommonJS module",
+  "version": "0.0.0",
+  "author": {
+    "name": "Conrad Pankoff",
+    "email": "deoxxa@fknsrs.biz",
+    "url": "http://www.fknsrs.biz/"
+  },
+  "url": "http://github.com/deoxxa/paginator",
+  "license": "BSD",
+  "repository": { "type":"git", "url":"git://github.com/deoxxa/paginator.git" },
+  "keywords": [
+    "paginator",
+    "pagination",
+    "pages"
+  ],
+  "main": "./index",
+  "scripts": {
+    "pre-publish": "docco ."
+  }
+}
