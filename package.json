@@ -17,6 +17,6 @@
   ],
   "main": "./index",
   "scripts": {
-    "pre-publish": "docco ."
+    "pre-publish": "docco index.js"
   }
 }
