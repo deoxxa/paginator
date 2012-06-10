@@ -1,7 +1,7 @@
 {
   "name": "paginator",
   "description": "Generic pagination algorithm wrapped in a CommonJS module",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": {
     "name": "Conrad Pankoff",
     "email": "deoxxa@fknsrs.biz",
