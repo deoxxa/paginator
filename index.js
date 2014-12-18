@@ -18,7 +18,7 @@ function Paginator(per_page, length) {
 // Build an object with all the necessary information for outputting pagination
 // controls.
 //
-// (new Pagianator(paginator.build(100, 2)
+// (new Paginator(paginator.build(100, 2)
 Paginator.prototype.build = function(total_results, current_page) {
   // We want the number of pages, rounded up to the nearest page.
   var total_pages = Math.ceil(total_results / this.per_page);
