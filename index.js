@@ -20,6 +20,11 @@ function Paginator(per_page, length) {
 //
 // (new Paginator(paginator.build(100, 2)
 Paginator.prototype.build = function(total_results, current_page) {
+
+  // Ensure both total_results and current_page are treated as Numbers
+  total_results = parseInt(total_results);
+  current_page  = parseInt(current_page) || 1;
+
   // We want the number of pages, rounded up to the nearest page.
   var total_pages = Math.ceil(total_results / this.per_page);
 
