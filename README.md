@@ -48,11 +48,4 @@ var pagination_info = paginator.build(10000, 50);
 License
 -------
 
-3-clause BSD. A copy is included with the source.
-
-Contact
--------
-
-* GitHub ([http://github.com/deoxxa](deoxxa))
-* Twitter ([http://twitter.com/deoxxa](@deoxxa))
-* Email ([mailto:deoxxa@fknsrs.biz](deoxxa@fknsrs.biz))
+Licensed under an MIT license.
