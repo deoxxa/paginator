@@ -23,6 +23,10 @@ Paginator.prototype.build = function(total_results, current_page) {
   // We want the number of pages, rounded up to the nearest page.
   var total_pages = Math.ceil(total_results / this.per_page);
 
+  // Ensure both total_results and current_page are treated as Numbers
+  total_results = parseInt(total_results, 10);
+  current_page  = parseInt(current_page, 10) || 1;
+
   // Obviously we can't be on a negative or 0 page.
   if (current_page < 1) { current_page = 1; }
   // If the user has done something like /page/99999 we want to clamp that back
